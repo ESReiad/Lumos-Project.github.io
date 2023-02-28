@@ -1,1 +1,2 @@
-# Lumos-Project.github.io
+# Lumos-Template
+tried to test new stuff :)
