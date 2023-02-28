@@ -3,7 +3,7 @@
     font-family: 'aquiline';
     font-style: normal;
     font-weight: bold;
-    src: url('/fonts/aquilinetwo.woff');
+    src: url(../fonts/aquilinetwo.woff);
     list-style: none;
     text-decoration: none;
     scroll-padding-top: 2rem;
@@ -12,7 +12,7 @@
 
 body 
 {
-    font-family: 'aquiline', sans-serif;
+    font-family: 'aquiline';
     background-color: black;
     height: 100vh;
     margin: 0rem;
