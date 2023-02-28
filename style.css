@@ -1,0 +1,165 @@
+@font-face 
+{
+    font-family: 'aquiline';
+    font-style: normal;
+    font-weight: bold;
+    src: url(../fonts/aquilinetwo.woff);
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    font-family: 'aquiline';
+    background-color: black;
+    height: 100vh;
+    margin: 0rem;
+    overflow: hidden; 
+    transition: 0.4s all linear;
+}
+
+#blob
+{
+    background-color: black;
+    height: 00px;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s all linear;
+}
+
+#blob.done
+{
+    background-color: white;
+    height: 500px;
+}
+
+#blur
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    backdrop-filter: blur(200px);
+}
+
+.content
+{
+    /* height: 100%;
+    width: 100%; */
+    overflow: hidden;
+    flex-direction: column;
+    background-color: black;
+    z-index: 1;
+}
+
+.top h1
+{
+    user-select: none;
+    font-size: 60px;
+    font-weight:normal;
+    margin: 0;
+    padding-bottom: 200px;
+    /* border: 1px solid red; */
+    color: black;
+    opacity: 0;
+    transition: 0.6s all linear;
+}
+
+.top h1:hover
+{
+    opacity: 1;
+}
+
+.top
+{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+.mid
+{
+    width: 100%;
+    margin-top: 470px;
+    text-align: center;
+}
+
+.mid .btn
+{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.3s all linear;
+}
+
+.mid .btn:hover
+{
+    background-color: bisque;
+}
+
+.mid .btn.done
+{
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.mid .firstword
+{
+    user-select: none;
+    font-size: 20px;
+    margin-top: -50px;
+    /* text-align: left; */
+    opacity: 0;
+    transition: 0.6s all linear;
+}
+
+.mid .firstword:hover
+{
+    opacity: 1;
+}
+
+.mid .secword
+{
+    user-select: none;
+    font-size: 20px;
+    margin-top: -100px;
+    text-align: left;
+    opacity: 1;
+    transition: 0.6s all linear;
+}
+
+.mid .secword:hover
+{
+    opacity: 1;
+}
+
+.mid .thirdword
+{
+    user-select: none;
+    font-size: 20px;
+    margin-top: 200px;
+    padding-right: 30px;
+    text-align: right;
+    opacity: 1;
+    transition: 0.6s all linear;
+}
+
+.mid .thirdword:hover
+{
+    opacity: 1;
+}
+
+.content h1:hover
+{
+    opacity: 1;
+}
