@@ -1,9 +1,9 @@
 @font-face 
 {
-    font-family: 'Aquiline';
+    font-family: 'aquiline';
     font-style: normal;
     font-weight: bold;
-    src: local('Aquiline'), url("/fonts/AquilineTwo.woff") format('woff');
+    src: url('/fonts/aquilinetwo.woff');
     list-style: none;
     text-decoration: none;
     scroll-padding-top: 2rem;
@@ -12,6 +12,7 @@
 
 body 
 {
+    font-family: 'aquiline', sans-serif;
     background-color: black;
     height: 100vh;
     margin: 0rem;
@@ -61,7 +62,6 @@ body
 .top h1
 {
     user-select: none;
-    font-family: Aquiline;
     font-size: 60px;
     font-weight:normal;
     margin: 0;
@@ -116,7 +116,6 @@ body
 .mid .firstword
 {
     user-select: none;
-    font-family: Aquiline;
     font-size: 20px;
     margin-top: -50px;
     /* text-align: left; */
@@ -132,7 +131,6 @@ body
 .mid .secword
 {
     user-select: none;
-    font-family: Aquiline;
     font-size: 20px;
     margin-top: -100px;
     text-align: left;
@@ -148,7 +146,6 @@ body
 .mid .thirdword
 {
     user-select: none;
-    font-family: Aquiline;
     font-size: 20px;
     margin-top: 200px;
     padding-right: 30px;
